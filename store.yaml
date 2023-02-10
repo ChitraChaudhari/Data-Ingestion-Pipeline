@@ -1,0 +1,18 @@
+file_type: csv
+dataset_name: file
+file_name: Books_Ratings
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - id
+    - title
+    - price
+    - userid
+    - profilename
+    - reviewhelpfulness
+    - reviewscore
+    - reviewtime
+    - reviewsummary
+    - reviewtext

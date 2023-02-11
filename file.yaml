@@ -1,11 +1,11 @@
 file_type: csv
-dataset_name: file
-file_name: Books_Ratings
-table_name: edsurv
+datset_name: testfile
+file_name: Books_rating
+table_name: edusurv
 inbound_delimiter: ","
 outbound_delimiter: "|"
 skip_leading_rows: 1
-columns: 
+columns:
     - id
     - title
     - price
